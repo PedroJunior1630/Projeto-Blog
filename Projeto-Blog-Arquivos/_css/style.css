@@ -1,0 +1,143 @@
+@charset "UTF-8";
+@font-face {
+    font-family: "FonteGood";
+    src: url("../_fontes/Pangolin-Regular.ttf");
+}
+p{
+    text-align: justify;
+    text-indent: 50px;
+}
+header#cabecalho img#navega{
+    position: absolute;
+    top: 5px;
+    height: 40px;
+    width: 40px;
+    left: 380px;
+}
+div#interface{
+    width: 900px;
+    background-color: white;
+    margin: -20px auto 0px auto;
+    box-shadow: 0px 0px 10px rgba(13, 64, 4, 0.6);
+    padding: 40px;
+}
+header#cabecalho img#icone{
+    position: absolute;
+    left: 860px;
+    top: 142px;
+}
+header#cabecalho{
+    border-bottom: 4px #1a8b0d solid;
+    height: 250px;
+    background: url("../_imagens/nvidia-logo.png.png") no-repeat -55px 110px;
+}
+header#cabecalho h1{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 35px;
+    color: #022906;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+header#cabecalho h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: #0a7e2f;
+    padding: 0px;
+    margin-top: 0px;
+}
+nav#menu{
+    display: block;
+}
+nav#menu ul{
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -18px;
+    left: 400px;
+}
+nav#menu li{
+    display: inline-block;
+    background-color: #000000;
+    padding: 10px;
+    margin: 4px;
+    transition: background-color 1s;
+}
+nav#menu h2{
+    display: none;
+}
+nav#menu li:hover {
+    background-color:#022906;
+}
+nav#menu a{
+    color: white;
+    text-decoration: none;
+}
+nav#menu a:hover{
+    color: white;
+    font-weight: bolder;
+}
+section#corpo{
+    font-family: 'FonteGood';
+    display: block;
+    width: 500px;
+    float: left;
+    border-right: 4px solid #1a8b0d;
+    padding: 15px;
+}
+article#artigo h1{
+    background-color: #606060;
+    font-size: 20px;
+    color: white;
+    padding: 5px;
+    text-shadow: 1px 1px 2px black;
+    margin-top: 0px;
+}
+.update{
+    color: rgba(0,0,0,0.5);
+    text-align: right;
+    font-size: 9px;
+    margin-bottom: 0px;
+}
+table#tabela td{
+    border: 2px solid #0d320a;
+    padding: 10px;
+    text-align: center;
+}
+table#tabela td.ce{
+    background-color: black;
+    color: white;
+    vertical-align: top;
+}
+table#tabela {
+    border: 2px solid #0d320a;
+    border-spacing: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+aside#lateral{
+    display: block;
+    width: 350px;
+    float: right;
+}
+aside#lateral h2{
+    font-size: 20px;
+    color:darkslategrey;
+}
+aside#lateral h3{
+    text-align: right;
+}
+aside#lateral h4{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 12px;
+    color: rgba(0,0,0,0.5);
+    text-align: right;
+}
+footer#rodape{
+    font-family:'Courier New', Courier, monospace;
+    clear: both;
+    border-top: 4px solid #1a8b0d;
+}
+
+footer#rodape h3{
+    text-align: center;
+}
