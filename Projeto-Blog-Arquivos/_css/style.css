@@ -65,6 +65,47 @@ nav#menu li{
     margin: 4px;
     transition: background-color 1s;
 }
+ul#album-fotos {
+    list-style: none;
+    width: 600px;
+    margin: 0px auto;
+    padding: 50px;
+    overflow: hidden;
+}
+ul#album-fotos li {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 10px;
+    border: 5px solid rgb(8, 92, 33);
+    background-color: aliceblue;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+    -webkit-transition: all 0.4s ease-in;
+}
+ul#album-fotos li#foto01 {
+    background: url('../_imagens/rtx4090-01.png');
+    background-position: 50% 50%;
+    background-color: #FFFFFF;
+}
+ul#album-fotos li#foto02 {
+    background: url('../_imagens/rtx4090-02.png');
+    background-position: 50% 50%;
+    background-color: #FFFFFF;
+}
+ul#album-fotos li#foto03 {
+    background: url('../_imagens/rtx4090-03.png');
+    background-position: 50% 50%;
+    background-color: #FFFFFF;
+}
+ul#album-fotos li#foto04 {
+    background: url('../_imagens/rtx4090-04.png');
+    background-position: 50% 50%;
+    background-color: #FFFFFF;
+}
+
+ul#album-fotos li:hover {
+    -webkit-transform: scale(1.5);
+}
 nav#menu h2{
     display: none;
 }
